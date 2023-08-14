@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="NK Noel">
+    <link rel="icon" type="image/x-icon" href="/media/noelnk favicon.png">
+    <title>Contact Page | Noel NK : Web Developer</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="flex-header">
+            <a href="https://noelnk.dev" target="_blank"><img src="./media/Noelnk Logo.png" alt="My Logo" id="main-logo">
+                <div class="social-icons">
+            </a>
+            <a href="https://www.linkedin.com/in/nkengaka-noel-2b04a6247" target="_blank"><img
+                    src="./media/linkedin (1).svg" alt="Linkedin Profile"></a>
+            <a href="https://github.com/noelnkdev" target="_blank"><img src="./media/github (1).svg"
+                    alt="Github Profile"></a>
+            <a href="https://www.facebook.com/profile.php?id=100092756247125" target="_blank"><img
+                    src="./media/facebook (1).svg" alt="Facebook Profile"></a>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="larger">
+            <form action="formpage.html" method="get" id="contactform">
+                <fieldset>
+                    <legend id="h2contact">
+                        <h2>
+                            Want to get in touch? Drop me a Message
+                        </h2>
+                    </legend>
+                </fieldset>
+                <fieldset class="namefieldset">
+                    <label for="fname">First Name: <input type="text" id="fname" name="firstname" required></label>
+                    <label for="lname" id="labelname">Last Name: <input type="text" id="lname" name="lastname" required></label>
+                </fieldset>
+
+                <fieldset class="emailfieldset">
+                    <label for="mail">Email: <input type="email" id="mail" name="email" required></label>
+
+                    <label for="phone" id="phonelab">Phone Number: <input type="tel" id="phone" name="phonenumber" required></label>
+                </fieldset>
+                <fieldset class="messagefieldset">
+                    <h3>Enter Message</h3>
+                    <textarea name="fullinfo" id="fullmessage" cols="80" rows="10"></textarea>
+                </fieldset>
+                <input type="Submit" id="submit" name="submitbutton">
+            </form>
+        </div>
+
+        <div class="smaller">
+            <aside>
+                <nav class="side-men">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="Projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <div class="footer1">
+            <h2>2023 <span class="footer-text">Noel NK</span></h2>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+.social-icons{
+    display:inline-block;
+    width:20px;
+    margin:0px auto;
+}
+#main-logo{
+    width: 200px;
+}
+header{
+    margin-bottom: 20px;
+}
+body{
+    background-color: #EEEEEE;
+    justify-content: space-between;
+}
+    
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myskills img{
+    display: inline-block;
+    width: 40px;
+    padding-left:60px;
+}
+legend{
+    text-align: center;
+}
+figure{
+    display:inline-block
+}
+figcaption{
+    text-align: right;
+    font-size: larger;
+}
+.intropic{
+    display: flex;
+    justify-content: space-between;
+}
+.noelphoto{
+    width:200px;
+    border-radius: 20px;
+    margin-right:20px;
+}
+
+.intro1{
+    font-size: medium;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 20px;
+}
+.intro2{
+    font-size:xxx-large;
+    font-weight: 500;
+    display: block;
+    padding-top: 20px;
+    line-height: 50px;
+}
+.myname{
+    font-size: larger;
+    font-weight: 500;
+}
+article{
+    line-height: 30px;
+    margin:0px 10px 5px 10px;
+}
+.side-men a{
+    display: block;
+    padding:40px;
+    text-decoration: none;
+    color:#06113C;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.side-men a:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#h2contact{
+    text-align: center;
+}
+#skills{
+    margin: 0px 25px 5px 25px;
+}
+.larger{
+    flex: 78%;
+}
+
+.smaller{
+    flex:20%;
+    border-left: solid 4px #FF8C32;
+
+}
+.namefieldset, .emailfieldset, .messagefieldset{
+    padding: 30px;
+
+}
+#contactform{
+    margin-right:40px;
+    margin-left: 40px;
+}
+#labelname{
+    margin-left: 30px;
+}
+#phonelab{
+    margin-left:30px
+}
+#nks-text>a{
+    color: #06113C;
+    text-decoration: none;
+}
+.text-port>p{
+    line-height: 28px;
+    margin-right: 20px;
+}
+.text-port{
+    flex-wrap: wrap;   
+}
+.img-port>img{
+  width: 600px;
+    border-radius: 10px;
+    box-shadow:  1px 1px 10px #FF8C32;
+margin-right: 25px;
+}
+.img-port{
+}
+.container {
+display: flex;
+align-items: center;
+justify-content:space-between;
+margin-top: 50px;
+}
+
+#submit{
+margin:20px 0;
+width: 100px;
+height: 35px;
+border-radius: 5px;
+border:1 #06113C
+}
+#submit:hover{
+    background-color: #06113C;
+    color: white;
+    cursor: pointer;
+}
+.myskills{
+border:#06113C 4px solid;
+border-bottom: 0px;
+border-right:0px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    border-top:#06113C 4px solid;
+}
+h2{
+    margin-bottom: 0;
+}
+.footer-text{
+    font-weight: 500;
+    font-size: 15px ;
+    margin-bottom: 0;
+}
