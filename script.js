@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// =====================================
 window.onload = function () {
     function validatePhoneNumber() {
         let phoneNumberInput = document.getElementById('phone');
